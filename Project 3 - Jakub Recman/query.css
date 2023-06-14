@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+  /* All */
+
+  /* Media nav */
+  body p {
+    font-size: 0.75rem;
+  }
+  .menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: var(--dark_nav);
+    width: 100%;
+  }
+  .menu li {
+    padding: 1rem;
+  }
+  .menu.show {
+    display: flex;
+    flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+  /* about me */
+  .border {
+    display: none;
+  }
+
+  .header-about-me {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Whisper", sans-serif;
+    width: 100%;
+    text-shadow: 2px 2px 5px;
+  }
+  .text-about-me {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1rem;
+    flex: 0 1 100%;
+    padding-bottom: 3rem;
+  }
+
+  /* galery */
+  .gal-text {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  /* skills */
+  .img-skills-index {
+    display: none;
+  }
+  .skills-text-and-header {
+    flex: 0 1 80%;
+    align-self: center;
+  }
+  .computer,
+  .player {
+    font-size: 2rem;
+  }
+  .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* faq */
+  h4 {
+    font-size: 1rem;
+  }
+  .answer {
+    font-size: 0.75rem;
+  }
+
+  /*´********** N7 *************/
+
+  .me-image {
+    display: none;
+  }
+  .title-container {
+    width: 90vw;
+  }
+  .title {
+    font-size: 0.75rem;
+  }
+  .first-image,
+  .second-image,
+  .third-image,
+  .fourth-image {
+    display: none;
+  }
+
+  .first-text,
+  .second-text,
+  .third-text,
+  .fourth-text {
+    width: 90%;
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styl.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="query.css" />
+    <title>Project "Phase 2"</title>
+  </head>
+  <body>
+    <header>
+      <div class="introduction">
+        <p class="introtext"><span>B</span>igvell</p>
+        <p class="undertext">supervillain on vacation</p>
+      </div>
+      <!-- Navigační bar -->
+      <nav class="navigation">
+        <div id="mode" class="icon">
+          <?xml version="1.0" ?><svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z"
+              />
+            </g>
+          </svg>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="n7team.html" class="nav-item">N7 Team</a></li>
+          <li><a href="skills.html" class="nav-item">Skills</a></li>
+          <li><a href="faq.html" class="nav-item">FAQ</a></li>
+        </ul>
+        <div id="burger" class="burger">
+          <img
+            src="pic/134216_menu_lines_hamburger_icon.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </nav>
+    </header>
+    <main class="games-section">
+      <h1 class="rock-game-header">Kámen, nůžky, papír</h1>
+      <div class="display">
+        <div class="score">
+          <p class="player"></p>
+          <p>-</p>
+          <p class="computer"></p>
+        </div>
+        <h2>Volba hráče: <span id="user-choice"></span></h2>
+        <h2>Volba počítače: <span id="comp-choice"></span></h2>
+        <h2>Výsledek: <span id="result"></span></h2>
+
+        <div class="counter-section"></div>
+
+        <button id="Kámen" class="btn">Kámen</button>
+        <button id="Nůžky" class="btn">Nůžky</button>
+        <button id="Papír" class="btn">Papír</button>
+      </div>
+    </main>
+    <main class="form-section">
+      <h1 class="password-form">Formulář na heslo</h1>
+      <form>
+        <input
+          type="password"
+          class="email1 email-input"
+          placeholder="Zadejte heslo"
+        />
+        <input
+          type="password"
+          class="email2 email-input"
+          placeholder="Zadejte heslo znovu"
+        />
+        <p class="result-text"></p>
+        <input type="submit" />
+      </form>
+    </main>
+    <footer class="footer">
+      <p>Bigvell s.r.o</p>
+      <a href="#">Contact</a>
+    </footer>
+    <script src="app.js"></script>
+    <script src="skills.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
