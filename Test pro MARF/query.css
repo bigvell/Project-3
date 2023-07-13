@@ -1,0 +1,129 @@
+/****************************** MEDIA ****** QUERY  ****************************/
+
+@media (max-width: 480px) {
+  /******** ABOUT US SECTION *********/
+  .section-1-container {
+    display: block;
+    width: 90%;
+  }
+  .pic_about {
+    padding-top: 30px;
+  }
+
+  /****** WHAT WE DO SECTION ********/
+  .whatwedo_box {
+    padding: 100px 20px;
+  }
+  .text2 p {
+    line-height: 200%;
+  }
+  .icons {
+    display: block;
+    /* flex-direction: column; */
+  }
+  .icon_box {
+    padding: 20px;
+  }
+
+  /****** GALLERY SECTION *********/
+  .section-3-gallery {
+    display: block;
+    padding: 100px 0px;
+    width: 90%;
+  }
+  .item-image {
+    padding: 10px 0px;
+  }
+  .item-text {
+    height: 100%;
+    padding: 10px 0px;
+  }
+
+  /********** WHERE DO YOU WANNA GO SECTION *************/
+
+  .text3 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+  }
+
+  /****** REVIEWS SECTION *******/
+
+  .text4 {
+    width: 90%;
+  }
+  .reviews_flex {
+    display: block;
+  }
+  .user p {
+    width: 90%;
+  }
+  .signature {
+    padding-bottom: 50px;
+  }
+
+  /****** FOOTER ********/
+
+  .sample_pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .sample_pic img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /***************** INDEX.html **********************/
+  .menu {
+    display: none;
+  }
+  .menu.show {
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    position: absolute;
+    background-color: var(--background-nav-a-footer);
+  }
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+  }
+  .hamburger img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text2 {
+    width: 90%;
+  }
+  .pics_flex {
+    width: 90%;
+  }
+
+  /***************** ABOUT-US.html ******************/
+
+  .about-us-grid {
+    display: block;
+  }
+  .about-us {
+    width: 100%;
+  }
+
+  .picture {
+    width: 95%;
+  }
+}
